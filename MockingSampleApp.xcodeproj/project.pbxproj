@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31F96DDE092E340E483E96F8 /* MockingSampleApp_macOSTests-MockingSampleApp_macOSMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E38F0814725C37FBE52E28 /* MockingSampleApp_macOSTests-MockingSampleApp_macOSMocks.generated.swift */; };
+		3974E19E247A852E00C06974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E19D247A852E00C06974 /* AppDelegate.swift */; };
+		3974E1A0247A852E00C06974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E19F247A852E00C06974 /* ViewController.swift */; };
+		3974E1A2247A853000C06974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3974E1A1247A853000C06974 /* Assets.xcassets */; };
+		3974E1A5247A853000C06974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3974E1A3247A853000C06974 /* Main.storyboard */; };
+		3974E1B1247A853000C06974 /* MockingSampleApp_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1B0247A853000C06974 /* MockingSampleApp_macOSTests.swift */; };
+		3974E1C0247A855F00C06974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1BF247A855F00C06974 /* AppDelegate.swift */; };
+		3974E1C2247A855F00C06974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1C1247A855F00C06974 /* SceneDelegate.swift */; };
+		3974E1C4247A855F00C06974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1C3247A855F00C06974 /* ViewController.swift */; };
+		3974E1C7247A855F00C06974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3974E1C5247A855F00C06974 /* Main.storyboard */; };
+		3974E1C9247A856000C06974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3974E1C8247A856000C06974 /* Assets.xcassets */; };
+		3974E1CC247A856000C06974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3974E1CA247A856000C06974 /* LaunchScreen.storyboard */; };
+		3974E1D7247A856000C06974 /* MockingSampleApp_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1D6247A856000C06974 /* MockingSampleApp_iOSTests.swift */; };
+		3974E1E6247A872300C06974 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1E5247A872300C06974 /* Bird.swift */; };
+		3974E1E7247A872300C06974 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1E5247A872300C06974 /* Bird.swift */; };
+		3974E1EB247A87CF00C06974 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3974E1EA247A87CF00C06974 /* XCTest.framework */; };
+		3974E1ED247A87D800C06974 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3974E1EC247A87D800C06974 /* XCTest.framework */; };
+		3974E1EF247A87E000C06974 /* Mockingbird in Frameworks */ = {isa = PBXBuildFile; productRef = 3974E1EE247A87E000C06974 /* Mockingbird */; };
+		3974E1F1247A87E600C06974 /* Mockingbird in Frameworks */ = {isa = PBXBuildFile; productRef = 3974E1F0247A87E600C06974 /* Mockingbird */; };
+		6C8C8820C4F47C0A98B41FC7 /* MockingSampleApp_iOSTests-MockingSampleApp_iOSMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57452D96EF5AF3282236E8A5 /* MockingSampleApp_iOSTests-MockingSampleApp_iOSMocks.generated.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3974E1AD247A853000C06974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974E16A247A84EB00C06974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3974E19A247A852E00C06974;
+			remoteInfo = "MockingSampleApp-macOS";
+		};
+		3974E1D3247A856000C06974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974E16A247A84EB00C06974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3974E1BC247A855F00C06974;
+			remoteInfo = "MockingSampleApp-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3974E19B247A852E00C06974 /* MockingSampleApp-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MockingSampleApp-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974E19D247A852E00C06974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3974E19F247A852E00C06974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3974E1A1247A853000C06974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3974E1A4247A853000C06974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3974E1A6247A853000C06974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3974E1A7247A853000C06974 /* MockingSampleApp_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MockingSampleApp_macOS.entitlements; sourceTree = "<group>"; };
+		3974E1AC247A853000C06974 /* MockingSampleApp-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MockingSampleApp-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974E1B0247A853000C06974 /* MockingSampleApp_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingSampleApp_macOSTests.swift; sourceTree = "<group>"; };
+		3974E1B2247A853000C06974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3974E1BD247A855F00C06974 /* MockingSampleApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MockingSampleApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974E1BF247A855F00C06974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3974E1C1247A855F00C06974 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3974E1C3247A855F00C06974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3974E1C6247A855F00C06974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3974E1C8247A856000C06974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3974E1CB247A856000C06974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3974E1CD247A856000C06974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3974E1D2247A856000C06974 /* MockingSampleApp-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MockingSampleApp-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974E1D6247A856000C06974 /* MockingSampleApp_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingSampleApp_iOSTests.swift; sourceTree = "<group>"; };
+		3974E1D8247A856000C06974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3974E1E5247A872300C06974 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		3974E1EA247A87CF00C06974 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3974E1EC247A87D800C06974 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		57452D96EF5AF3282236E8A5 /* MockingSampleApp_iOSTests-MockingSampleApp_iOSMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "MockingSampleApp_iOSTests-MockingSampleApp_iOSMocks.generated.swift"; path = "MockingbirdMocks/MockingSampleApp_iOSTests-MockingSampleApp_iOSMocks.generated.swift"; sourceTree = "<group>"; };
+		D0E38F0814725C37FBE52E28 /* MockingSampleApp_macOSTests-MockingSampleApp_macOSMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "MockingSampleApp_macOSTests-MockingSampleApp_macOSMocks.generated.swift"; path = "MockingbirdMocks/MockingSampleApp_macOSTests-MockingSampleApp_macOSMocks.generated.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3974E198247A852E00C06974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1A9247A853000C06974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1F1247A87E600C06974 /* Mockingbird in Frameworks */,
+				3974E1ED247A87D800C06974 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1BA247A855F00C06974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1CF247A856000C06974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1EF247A87E000C06974 /* Mockingbird in Frameworks */,
+				3974E1EB247A87CF00C06974 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3974E169247A84EB00C06974 = {
+			isa = PBXGroup;
+			children = (
+				3974E1E8247A876300C06974 /* Common */,
+				3974E1BE247A855F00C06974 /* MockingSampleApp-iOS */,
+				3974E1D5247A856000C06974 /* MockingSampleApp-iOSTests */,
+				3974E19C247A852E00C06974 /* MockingSampleApp-macOS */,
+				3974E1AF247A853000C06974 /* MockingSampleApp-macOSTests */,
+				3974E173247A84EB00C06974 /* Products */,
+				3974E1E9247A87CF00C06974 /* Frameworks */,
+				F55A79150F3D89609BB13D67 /* Generated Mocks */,
+			);
+			sourceTree = "<group>";
+		};
+		3974E173247A84EB00C06974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3974E19B247A852E00C06974 /* MockingSampleApp-macOS.app */,
+				3974E1AC247A853000C06974 /* MockingSampleApp-macOSTests.xctest */,
+				3974E1BD247A855F00C06974 /* MockingSampleApp-iOS.app */,
+				3974E1D2247A856000C06974 /* MockingSampleApp-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3974E19C247A852E00C06974 /* MockingSampleApp-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3974E19D247A852E00C06974 /* AppDelegate.swift */,
+				3974E19F247A852E00C06974 /* ViewController.swift */,
+				3974E1A1247A853000C06974 /* Assets.xcassets */,
+				3974E1A3247A853000C06974 /* Main.storyboard */,
+				3974E1A6247A853000C06974 /* Info.plist */,
+				3974E1A7247A853000C06974 /* MockingSampleApp_macOS.entitlements */,
+			);
+			path = "MockingSampleApp-macOS";
+			sourceTree = "<group>";
+		};
+		3974E1AF247A853000C06974 /* MockingSampleApp-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1B0247A853000C06974 /* MockingSampleApp_macOSTests.swift */,
+				3974E1B2247A853000C06974 /* Info.plist */,
+			);
+			path = "MockingSampleApp-macOSTests";
+			sourceTree = "<group>";
+		};
+		3974E1BE247A855F00C06974 /* MockingSampleApp-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1BF247A855F00C06974 /* AppDelegate.swift */,
+				3974E1C1247A855F00C06974 /* SceneDelegate.swift */,
+				3974E1C3247A855F00C06974 /* ViewController.swift */,
+				3974E1C5247A855F00C06974 /* Main.storyboard */,
+				3974E1C8247A856000C06974 /* Assets.xcassets */,
+				3974E1CA247A856000C06974 /* LaunchScreen.storyboard */,
+				3974E1CD247A856000C06974 /* Info.plist */,
+			);
+			path = "MockingSampleApp-iOS";
+			sourceTree = "<group>";
+		};
+		3974E1D5247A856000C06974 /* MockingSampleApp-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1D6247A856000C06974 /* MockingSampleApp_iOSTests.swift */,
+				3974E1D8247A856000C06974 /* Info.plist */,
+			);
+			path = "MockingSampleApp-iOSTests";
+			sourceTree = "<group>";
+		};
+		3974E1E8247A876300C06974 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1E5247A872300C06974 /* Bird.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3974E1E9247A87CF00C06974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1EC247A87D800C06974 /* XCTest.framework */,
+				3974E1EA247A87CF00C06974 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F55A79150F3D89609BB13D67 /* Generated Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				57452D96EF5AF3282236E8A5 /* MockingSampleApp_iOSTests-MockingSampleApp_iOSMocks.generated.swift */,
+				D0E38F0814725C37FBE52E28 /* MockingSampleApp_macOSTests-MockingSampleApp_macOSMocks.generated.swift */,
+			);
+			name = "Generated Mocks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3974E19A247A852E00C06974 /* MockingSampleApp-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974E1B3247A853000C06974 /* Build configuration list for PBXNativeTarget "MockingSampleApp-macOS" */;
+			buildPhases = (
+				3974E197247A852E00C06974 /* Sources */,
+				3974E198247A852E00C06974 /* Frameworks */,
+				3974E199247A852E00C06974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MockingSampleApp-macOS";
+			productName = "MockingSampleApp-macOS";
+			productReference = 3974E19B247A852E00C06974 /* MockingSampleApp-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3974E1AB247A853000C06974 /* MockingSampleApp-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974E1B6247A853000C06974 /* Build configuration list for PBXNativeTarget "MockingSampleApp-macOSTests" */;
+			buildPhases = (
+				F7730D7E9ED3E4BA00565D81 /* Clean Mockingbird Mocks */,
+				72ECAF79935E9ED3C452E8CE /* Generate Mockingbird Mocks */,
+				3974E1A8247A853000C06974 /* Sources */,
+				3974E1A9247A853000C06974 /* Frameworks */,
+				3974E1AA247A853000C06974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3974E1AE247A853000C06974 /* PBXTargetDependency */,
+			);
+			name = "MockingSampleApp-macOSTests";
+			packageProductDependencies = (
+				3974E1F0247A87E600C06974 /* Mockingbird */,
+			);
+			productName = "MockingSampleApp-macOSTests";
+			productReference = 3974E1AC247A853000C06974 /* MockingSampleApp-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3974E1BC247A855F00C06974 /* MockingSampleApp-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974E1D9247A856000C06974 /* Build configuration list for PBXNativeTarget "MockingSampleApp-iOS" */;
+			buildPhases = (
+				3974E1B9247A855F00C06974 /* Sources */,
+				3974E1BA247A855F00C06974 /* Frameworks */,
+				3974E1BB247A855F00C06974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MockingSampleApp-iOS";
+			productName = "MockingSampleApp-iOS";
+			productReference = 3974E1BD247A855F00C06974 /* MockingSampleApp-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3974E1D1247A856000C06974 /* MockingSampleApp-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974E1DC247A856000C06974 /* Build configuration list for PBXNativeTarget "MockingSampleApp-iOSTests" */;
+			buildPhases = (
+				EBC876956733113A1259978E /* Clean Mockingbird Mocks */,
+				3E3D28B3A7D54B16E7F734F8 /* Generate Mockingbird Mocks */,
+				3974E1CE247A856000C06974 /* Sources */,
+				3974E1CF247A856000C06974 /* Frameworks */,
+				3974E1D0247A856000C06974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3974E1D4247A856000C06974 /* PBXTargetDependency */,
+			);
+			name = "MockingSampleApp-iOSTests";
+			packageProductDependencies = (
+				3974E1EE247A87E000C06974 /* Mockingbird */,
+			);
+			productName = "MockingSampleApp-iOSTests";
+			productReference = 3974E1D2247A856000C06974 /* MockingSampleApp-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3974E16A247A84EB00C06974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Cnote;
+				TargetAttributes = {
+					3974E19A247A852E00C06974 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					3974E1AB247A853000C06974 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 3974E19A247A852E00C06974;
+					};
+					3974E1BC247A855F00C06974 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					3974E1D1247A856000C06974 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 3974E1BC247A855F00C06974;
+					};
+				};
+			};
+			buildConfigurationList = 3974E16D247A84EB00C06974 /* Build configuration list for PBXProject "MockingSampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3974E169247A84EB00C06974;
+			packageReferences = (
+				3974E1DF247A869F00C06974 /* XCRemoteSwiftPackageReference "mockingbird" */,
+			);
+			productRefGroup = 3974E173247A84EB00C06974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3974E1BC247A855F00C06974 /* MockingSampleApp-iOS */,
+				3974E1D1247A856000C06974 /* MockingSampleApp-iOSTests */,
+				3974E19A247A852E00C06974 /* MockingSampleApp-macOS */,
+				3974E1AB247A853000C06974 /* MockingSampleApp-macOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3974E199247A852E00C06974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1A2247A853000C06974 /* Assets.xcassets in Resources */,
+				3974E1A5247A853000C06974 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1AA247A853000C06974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1BB247A855F00C06974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1CC247A856000C06974 /* LaunchScreen.storyboard in Resources */,
+				3974E1C9247A856000C06974 /* Assets.xcassets in Resources */,
+				3974E1C7247A855F00C06974 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1D0247A856000C06974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E3D28B3A7D54B16E7F734F8 /* Generate Mockingbird Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"/tmp/Mockingbird-4394F5E3-1B2E-4049-B350-4458CC3B17DE",
+			);
+			name = "Generate Mockingbird Mocks";
+			outputPaths = (
+				"$(SRCROOT)/MockingbirdMocks/MockingSampleApp_iOSTests-MockingSampleApp_iOSMocks.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmockingbird generate \\\n  --targets 'MockingSampleApp-iOS' \\\n  --outputs \"${SRCROOT}/MockingbirdMocks/MockingSampleApp_iOSTests-MockingSampleApp_iOSMocks.generated.swift\" \\\n  --disable-module-import\n\n# Ensure mocks are generated prior to running Compile Sources\nrm -f '/tmp/Mockingbird-4394F5E3-1B2E-4049-B350-4458CC3B17DE'\n";
+		};
+		72ECAF79935E9ED3C452E8CE /* Generate Mockingbird Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"/tmp/Mockingbird-555AE98B-BC51-44A0-89AF-62E0EBA3D56F",
+			);
+			name = "Generate Mockingbird Mocks";
+			outputPaths = (
+				"$(SRCROOT)/MockingbirdMocks/MockingSampleApp_macOSTests-MockingSampleApp_macOSMocks.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmockingbird generate \\\n  --targets 'MockingSampleApp-macOS' \\\n  --outputs \"${SRCROOT}/MockingbirdMocks/MockingSampleApp_macOSTests-MockingSampleApp_macOSMocks.generated.swift\" \\\n  --disable-module-import\n\n# Ensure mocks are generated prior to running Compile Sources\nrm -f '/tmp/Mockingbird-555AE98B-BC51-44A0-89AF-62E0EBA3D56F'\n";
+		};
+		EBC876956733113A1259978E /* Clean Mockingbird Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Clean Mockingbird Mocks";
+			outputPaths = (
+				"/tmp/Mockingbird-4394F5E3-1B2E-4049-B350-4458CC3B17DE",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo $RANDOM > '/tmp/Mockingbird-4394F5E3-1B2E-4049-B350-4458CC3B17DE'\n";
+		};
+		F7730D7E9ED3E4BA00565D81 /* Clean Mockingbird Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Clean Mockingbird Mocks";
+			outputPaths = (
+				"/tmp/Mockingbird-555AE98B-BC51-44A0-89AF-62E0EBA3D56F",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo $RANDOM > '/tmp/Mockingbird-555AE98B-BC51-44A0-89AF-62E0EBA3D56F'\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3974E197247A852E00C06974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1A0247A852E00C06974 /* ViewController.swift in Sources */,
+				3974E1E7247A872300C06974 /* Bird.swift in Sources */,
+				3974E19E247A852E00C06974 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1A8247A853000C06974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1B1247A853000C06974 /* MockingSampleApp_macOSTests.swift in Sources */,
+				31F96DDE092E340E483E96F8 /* MockingSampleApp_macOSTests-MockingSampleApp_macOSMocks.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1B9247A855F00C06974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1C4247A855F00C06974 /* ViewController.swift in Sources */,
+				3974E1C0247A855F00C06974 /* AppDelegate.swift in Sources */,
+				3974E1E6247A872300C06974 /* Bird.swift in Sources */,
+				3974E1C2247A855F00C06974 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1CE247A856000C06974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1D7247A856000C06974 /* MockingSampleApp_iOSTests.swift in Sources */,
+				6C8C8820C4F47C0A98B41FC7 /* MockingSampleApp_iOSTests-MockingSampleApp_iOSMocks.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3974E1AE247A853000C06974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3974E19A247A852E00C06974 /* MockingSampleApp-macOS */;
+			targetProxy = 3974E1AD247A853000C06974 /* PBXContainerItemProxy */;
+		};
+		3974E1D4247A856000C06974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3974E1BC247A855F00C06974 /* MockingSampleApp-iOS */;
+			targetProxy = 3974E1D3247A856000C06974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3974E1A3247A853000C06974 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3974E1A4247A853000C06974 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3974E1C5247A855F00C06974 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3974E1C6247A855F00C06974 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3974E1CA247A856000C06974 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3974E1CB247A856000C06974 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3974E18F247A84F200C06974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3974E190247A84F200C06974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3974E1B4247A853000C06974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MockingSampleApp-macOS/MockingSampleApp_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MockingSampleApp-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnotethegr8.MockingSampleApp-macOS";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3974E1B5247A853000C06974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MockingSampleApp-macOS/MockingSampleApp_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MockingSampleApp-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnotethegr8.MockingSampleApp-macOS";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3974E1B7247A853000C06974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MockingSampleApp-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnotethegr8.MockingSampleApp-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockingSampleApp-macOS.app/Contents/MacOS/MockingSampleApp-macOS";
+			};
+			name = Debug;
+		};
+		3974E1B8247A853000C06974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MockingSampleApp-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnotethegr8.MockingSampleApp-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockingSampleApp-macOS.app/Contents/MacOS/MockingSampleApp-macOS";
+			};
+			name = Release;
+		};
+		3974E1DA247A856000C06974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MockingSampleApp-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnotethegr8.MockingSampleApp-iOS";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3974E1DB247A856000C06974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MockingSampleApp-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnotethegr8.MockingSampleApp-iOS";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3974E1DD247A856000C06974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MockingSampleApp-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnotethegr8.MockingSampleApp-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockingSampleApp-iOS.app/MockingSampleApp-iOS";
+			};
+			name = Debug;
+		};
+		3974E1DE247A856000C06974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MockingSampleApp-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnotethegr8.MockingSampleApp-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockingSampleApp-iOS.app/MockingSampleApp-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3974E16D247A84EB00C06974 /* Build configuration list for PBXProject "MockingSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974E18F247A84F200C06974 /* Debug */,
+				3974E190247A84F200C06974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3974E1B3247A853000C06974 /* Build configuration list for PBXNativeTarget "MockingSampleApp-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974E1B4247A853000C06974 /* Debug */,
+				3974E1B5247A853000C06974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3974E1B6247A853000C06974 /* Build configuration list for PBXNativeTarget "MockingSampleApp-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974E1B7247A853000C06974 /* Debug */,
+				3974E1B8247A853000C06974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3974E1D9247A856000C06974 /* Build configuration list for PBXNativeTarget "MockingSampleApp-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974E1DA247A856000C06974 /* Debug */,
+				3974E1DB247A856000C06974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3974E1DC247A856000C06974 /* Build configuration list for PBXNativeTarget "MockingSampleApp-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974E1DD247A856000C06974 /* Debug */,
+				3974E1DE247A856000C06974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3974E1DF247A869F00C06974 /* XCRemoteSwiftPackageReference "mockingbird" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/birdrides/mockingbird.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3974E1EE247A87E000C06974 /* Mockingbird */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3974E1DF247A869F00C06974 /* XCRemoteSwiftPackageReference "mockingbird" */;
+			productName = Mockingbird;
+		};
+		3974E1F0247A87E600C06974 /* Mockingbird */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3974E1DF247A869F00C06974 /* XCRemoteSwiftPackageReference "mockingbird" */;
+			productName = Mockingbird;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3974E16A247A84EB00C06974 /* Project object */;
+}
